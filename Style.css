@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(./outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #0d192c;
+}
+
+h1 {
+  font-family: "Outfit";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 362;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8bacd9;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+svg {
+  height: 1px;
+  width: 100%;
+  background: #2e405a;
+}
+
+.container {
+  margin: auto;
+  padding: 24px;
+  height: 596px;
+  width: 350px;
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}
+
+#eq {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.etherium {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  float: left;
+}
+
+#et {
+  width: 11px;
+  height: 11px;
+  padding-right: 6.45px;
+}
+
+#et2 {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #00fff8;
+  margin: 0 0;
+}
+.time {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  float: right;
+}
+
+#tm {
+  height: 13.333333015441895px;
+  width: 13.333333015441895px;
+  border-radius: 0px;
+  padding: 6.45px;
+}
+#tm2 {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8bacd9;
+  margin: 0 0;
+}
+
+.creator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#cr {
+  height: 33px;
+  width: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+#cr1 {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8bacd9;
+}
+
+#cr2 {
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  margin-left: 5px;
+}
